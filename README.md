@@ -71,24 +71,24 @@ There are a few assumptions that I made for the script, in both the input and th
 
 1. JSON data format
 
-    - Data is in proper JSON format
+- Data is in proper JSON format
 
-    - JSON format is the same as the one in the example win-loss data in the application:
+- JSON format is the same as the one in the example win-loss data in the application:
 
-        ```text
-        teams
-        ├── opponents:
-            ├── W
-            ├── L
-        ```
+```text
+teams
+├── opponents:
+    ├── W
+    ├── L
+```
 
-    - Win values are stored under the key "W" and are integers
+- Win values are stored under the key "W" and are integers
 
 ### Output
 
 1. Formatting of the example table.
 
-    - Stubhead (row label descriptor) is abbreviated as "Tm", for "Teams"
+- Stubhead (row label descriptor) is abbreviated as "Tm", for "Teams"
 
 ## Dependencies
 
