@@ -38,8 +38,14 @@ At a high level, the solution follows these steps:
 
 ## Project structure
 
-
-
+```text
+.
+├── jonathan_calixto_application.py
+├── README.md
+├── team_record.json
+└── table/
+    └── win_loss_matrix_table.png
+```
 
 ## Usage
 
